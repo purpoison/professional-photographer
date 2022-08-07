@@ -221,4 +221,9 @@ body {
 
 .slider__item.slick-active {
   opacity: 1;
+}
+
+.slider {
+  min-width: 100%;
+  overflow: hidden;
 }/*# sourceMappingURL=style.css.map */
