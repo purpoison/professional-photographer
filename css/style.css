@@ -100,8 +100,8 @@ body {
   width: 100%;
 }
 
-.about__wrap {
-  background-color: #F6F6F6;
+.about {
+  background-color: #f6f6f6;
 }
 .about__content {
   padding: 120px 0 107px 0;
@@ -127,6 +127,11 @@ body {
   justify-content: space-between;
   padding-bottom: 110px;
 }
+@media screen and (max-width: 450px) {
+  .skills__row {
+    display: block;
+  }
+}
 .skills__box {
   display: flex;
   flex-direction: column;
@@ -149,8 +154,8 @@ body {
   margin-right: 9px;
 }
 
-.portfolio__wrap {
-  background-color: #F6F6F6;
+.portfolio {
+  background-color: #f6f6f6;
 }
 .portfolio__content {
   text-align: center;
@@ -163,8 +168,7 @@ body {
   display: inline-block;
   font-size: 18px;
   line-height: 22px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #070707;
 }
 .portfolio__content a:not(:last-child) {
@@ -196,7 +200,7 @@ body {
   background-color: #070707;
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 13px 29px;
   border-radius: 26px;
   cursor: pointer;
@@ -226,4 +230,6 @@ body {
 .slider {
   min-width: 100%;
   overflow: hidden;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*boogie*//*# sourceMappingURL=style.css.map */
